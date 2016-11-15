@@ -17,6 +17,7 @@ JMH provides a lot of options. To see them, run `java -jar target/benchmarks.jar
 
 # Expected output
 
-	Benchmark                Mode  Cnt         Score   Error  Units
-	MyBenchmark.AvroTest    thrpt    2   3028566.181          ops/s
-	MyBenchmark.SubstrTest  thrpt    2  20898987.926          ops/s
+	Benchmark                Mode  Cnt         Score       Error  Units
+	MyBenchmark.AvroTest    thrpt  200   3360845.667 ±  51103.886  ops/s
+	MyBenchmark.PojoTest    thrpt  200    241485.913 ±   3748.181  ops/s
+	MyBenchmark.SubstrTest  thrpt  200  20081971.452 ± 114315.726  ops/s
